@@ -36,6 +36,7 @@ setup(
         'pyyaml',
         'xmltodict',
     ],
+    python_requires='>=2.7',
     entry_points={
         'console_scripts': [
             'spdx-tv2rdf = spdx.tv_to_rdf:main',
